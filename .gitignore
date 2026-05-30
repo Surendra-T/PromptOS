@@ -1,0 +1,30 @@
+# Node / Next.js
+node_modules/
+.next/
+.env*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python / FastAPI
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.pytest_cache/
+
+# Databases
+*.db
+*.sqlite3
+
+# OS / Misc
+.DS_Store
+.vscode/
+.idea/
+
+# --- USER SPECIFIC EXCLUSIONS ---
+-Other Files/
+-Submissions/
+scratch/
+crop.py
